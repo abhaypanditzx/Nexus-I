@@ -6,8 +6,8 @@ export default {
       xs:"540px"
     },
   backgroundImage:{
-    'red':"url('src/assets/chou.jpg')",
-  'full':"url('src/assets/peakpx.jpg')"}},
+    'red':"url('./src/assets/chou.jpg')",
+  'full':"url('./src/assets/peakpx.jpg')"}},
   },
   plugins: [],
 }
