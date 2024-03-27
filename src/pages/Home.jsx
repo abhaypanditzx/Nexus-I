@@ -1,10 +1,10 @@
 import React from 'react'
 import logo from "../assets/logo.png"
-import { RiWhatsappFill } from "react-icons/ri";
+import JoinWhatsappBtn from '../components/JoinWhatsappBtn'
 const Home = () => {
   return (
     <div className="flex flex-col ">
-        <div className='small-screen big-screen bg-no-repeat bg-cover    ubuntu-medium  text-white relative min-h-[210px] sm:h-[450px] flex justify-center xs:justify-start py-[40px] items-start px-4 flex-col  w-full '>
+        <div className="small-screen big-screen bg-no-repeat max-xs:h-[300px] bg-center before:absolute before:content-[''] before:z-10 before:w-full before:top-0 before:left-0 before:h-full  before:bg-black/40 before:m-0 max-xs:bg-cover xs:bg-cover    ubuntu-medium  text-white relative min-h-[210px] sm:h-[450px] flex justify-center xs:justify-start py-[40px] items-start px-4 flex-col  w-full ">
             <h1 className='z-10 sm:text-6xl text-3xl'>
                 welcome to our squad
             </h1>
@@ -12,10 +12,7 @@ const Home = () => {
                 NEXUS I
             </h1>
              {/* join squad buttton */}
-         <a href='https://chat.whatsapp.com/Ek4Z7soBFRoK43Kp18Ccf3' className="min-w-[150px] p-2 text-gray-800  hover:text-gray-600 hover:scale-95 flex items-center justify-around min-h-[30px] bg-white/60 backdrop-blur-sm absolute  w-fit  xs:h-[50px] bottom-[-20px] left-[50%] translate-x-[-50%] ">
-            <RiWhatsappFill className='rounded-full xs:text-2xl text-green-500 border-white  bg-white max-xs:text-xl'  />
-            <span className='font-medium'>join whatsapp</span>
-          </a>
+       <JoinWhatsappBtn/>
         </div>
        
         <div className="realtive bg-black min-h-[400px] py-5 flex justify-center items-center px-4 flex-col  w-full ">

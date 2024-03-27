@@ -57,7 +57,7 @@
   @media only  screen  and (max-width:550px){
 
     .small-screen{
-      background-image: url('./assets/chou.png');
+      background-image: url('./assets/smallScreen.jpg');
     }
   }
   @media only  screen  and (min-width:550px){
