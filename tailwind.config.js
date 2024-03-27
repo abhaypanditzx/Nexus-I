@@ -5,9 +5,7 @@ export default {
     extend: {screens:{
       xs:"540px"
     },
-  backgroundImage:{
-    'red':"url('./src/assets/chou.png')",
-  'full':"url('./src/assets/peakpx.png')"}},
+},
   },
   plugins: [],
 }

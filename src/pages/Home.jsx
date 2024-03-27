@@ -4,7 +4,7 @@ import { RiWhatsappFill } from "react-icons/ri";
 const Home = () => {
   return (
     <div className="flex flex-col ">
-        <div className='xs:bg-full  max-xs:bg-red bg-no-repeat bg-cover   ubuntu-medium  text-white relative min-h-[210px] sm:h-[500px] flex justify-center xs:justify-start py-[40px] items-start px-4 flex-col  w-full '>
+        <div className='small-screen big-screen bg-no-repeat bg-cover    ubuntu-medium  text-white relative min-h-[210px] sm:h-[450px] flex justify-center xs:justify-start py-[40px] items-start px-4 flex-col  w-full '>
             <h1 className='z-10 sm:text-6xl text-3xl'>
                 welcome to our squad
             </h1>
